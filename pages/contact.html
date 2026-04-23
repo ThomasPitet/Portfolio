@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Thomas Pitet</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <a href="../index.html" class="nav-logo">🏍️ Thomas Pitet</a>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">Accueil</a>
+            <a href="projets.html" class="nav-link">Projets</a>
+            <a href="contact.html" class="nav-link active nav-cta">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <div class="mobile-menu">
+        <a href="../index.html" class="nav-link">Accueil</a>
+        <a href="projets.html" class="nav-link">Projets</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+</nav>
+
+<div class="page-hero">
+    <div class="container">
+        <span class="section-tag">// Contact</span>
+        <h1>Me <span>Contacter</span></h1>
+        <p>Disponible pour toute opportunité, alternance ou collaboration.</p>
+    </div>
+</div>
+
+<section class="section">
+    <div class="contact-layout">
+        <div class="contact-info-card reveal">
+            <h3>Coordonnées</h3>
+            <a href="tel:0670122844" class="contact-item">
+                <div class="contact-item-icon">📞</div>
+                <span>06 70 12 28 44</span>
+            </a>
+            <a href="mailto:thomaspitet.pro@gmail.com" class="contact-item">
+                <div class="contact-item-icon">✉️</div>
+                <span>thomaspitet.pro@gmail.com</span>
+            </a>
+            <a href="https://github.com/ThomasPitet" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-item-icon">💻</div>
+                <span>GitHub / ThomasPitet</span>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-pitet-pro/" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-item-icon">🔗</div>
+                <span>LinkedIn / thomas-pitet-pro</span>
+            </a>
+        </div>
+
+        <div class="contact-form-card reveal reveal-delay-1">
+            <h3>Formulaire de contact</h3>
+            <div id="form-success" class="form-success">
+                ✅ Votre message a bien été envoyé !
+            </div>
+            <form id="contact-form" action="https://formsubmit.co/ajax/thomaspitet.pro@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio" />
+                <input type="hidden" name="_captcha" value="false" />
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required placeholder="Votre nom" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Alternance, projet, question…" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Votre message…"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer le message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-logo">🏍️ Thomas Pitet</div>
+        <p class="footer-sub">Développeur Fullstack en formation &bull; <a href="https://github.com/ThomasPitet" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+</footer>
+
+<script src="../assets/js/loader.js"></script>
+<script src="../assets/js/navbar.js"></script>
+<script src="../assets/js/reveal.js"></script>
+<script src="../assets/js/skill-bars.js"></script>
+<script src="../assets/js/typewriter.js"></script>
+<script src="../assets/js/particles.js"></script>
+<script src="../assets/js/contact-form.js"></script>
+</body>
+</html>
+
