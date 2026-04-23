@@ -1,13 +1,11 @@
-(function initNavbar() {
+﻿(function initNavbar() {
   const navbar = document.getElementById('navbar');
   if (!navbar) return;
 
-  // Scroll effect
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 20);
   }, { passive: true });
 
-  // Active link based on current page
   const links = navbar.querySelectorAll('.nav-link');
   const path  = window.location.pathname;
   links.forEach(link => {
@@ -22,7 +20,6 @@
     }
   });
 
-  // Hamburger
   const hamburger  = navbar.querySelector('.hamburger');
   const mobileMenu = navbar.querySelector('.mobile-menu');
   if (hamburger && mobileMenu) {

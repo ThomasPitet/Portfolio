@@ -1,5 +1,4 @@
-/* ===== CATEGORY LABELS ===== */
-.category-label {
+﻿.category-label {
     display: inline-flex;
     align-items: center;
     gap: 0.55rem;
@@ -47,7 +46,6 @@
     50% { opacity: 0.3; }
 }
 
-/* ===== FEATURED PROJECT (Phare) ===== */
 .featured-project {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -141,7 +139,6 @@
     flex-wrap: wrap;
 }
 
-/* ===== REGULAR PROJECT CARDS (Projets) ===== */
 .projects-cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -206,7 +203,6 @@
     letter-spacing: 0.05em;
 }
 
-/* ===== ENTREPRISE CARDS ===== */
 .entreprise-card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -266,7 +262,6 @@
     letter-spacing: 0.05em;
 }
 
-/* ===== EN COURS CARDS ===== */
 .encours-card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -325,7 +320,6 @@
     animation: blink 1.5s infinite;
 }
 
-/* ===== SECTION DIVIDERS ===== */
 .section-divider {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--border), transparent);

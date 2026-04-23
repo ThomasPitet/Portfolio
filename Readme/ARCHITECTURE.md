@@ -1,4 +1,4 @@
-# Architecture du Portfolio — Thomas Pitet
+ Architecture du Portfolio — Thomas Pitet
 
 ```
 portfolio/

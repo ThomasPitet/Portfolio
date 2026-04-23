@@ -1,7 +1,5 @@
 # Portfolio — Thomas Pitet
 
-> **"La forme l'emporte sur la fonction."**
-
 **[Voir le portfolio en ligne](https://thomaspitet.github.io/Portfolio/)**
 
 ---
@@ -49,6 +47,3 @@ portfolio/
     ├── js/             # Scripts JavaScript
     └── img/            # Images
 ```
-
----
-
