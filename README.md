@@ -1,6 +1,6 @@
 # Portfolio — Thomas Pitet
 
-**[Voir le portfolio en ligne](https://thomaspitet.github.io/Portfolio/)**
+**[Voir le portfolio en ligne]((https://thomaspitet.github.io/Portfolio-Pro/))**
 
 ---
 
